@@ -80,6 +80,8 @@ export function activate(context: vscode.ExtensionContext) {
                                 textNew += chars;
                             } else if (chars[3] === " ") {
                                 textNew += charsTrim + '\t';
+                            } else {
+                                textNew += chars;
                             }
                         } else {
                             textNew += chars;
