@@ -1,4 +1,4 @@
-# Tab to Space
+# Space to tab
 
 Convert spaces to indentation using tabs.
 
