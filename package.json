@@ -3,7 +3,7 @@
 	"publisher": "PYGC",
 	"displayName": "Space To Tab",
 	"description": "Convert space to tab.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/PYGC/vscode-space-to-tab"
