@@ -33,3 +33,7 @@ This extension has no settings.
 ## 6. Links
 
 - [Source Code](https://github.com/PYGC/vscode-space-to-tab)
+
+## 7. References
+
+- [vscode-tab-to-space](https://github.com/takumisoft68/vscode-tab-to-space)
