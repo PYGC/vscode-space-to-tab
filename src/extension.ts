@@ -77,7 +77,7 @@ export function activate(context: vscode.ExtensionContext) {
                             if (charsTrim === "") {
                                 textNew += "\t";
                             } else if (chars[0] === " ") {
-                                textNew += charsTrim;
+                                textNew += chars;
                             } else if (chars[3] === " ") {
                                 textNew += charsTrim + '\t';
                             }
@@ -89,6 +89,7 @@ export function activate(context: vscode.ExtensionContext) {
 
                 let selection = new vscode.Selection(new vscode.Position(i, 0), new vscode.Position(i, 10000));
                 edit.replace(selection, textNew);
+                editor.options.insertSpaces = false;
             }
         });
     });
